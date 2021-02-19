@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(36, 105, 160),
+    rgb(27, 90, 134),
+    rgb(27, 90, 134),
+    rgb(9, 48, 97)
+  );
+}
+
+.navbar-links {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: space-evenly;
+}
+
+.navbar-links li {
+  list-style: none;
+}

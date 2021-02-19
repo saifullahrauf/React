@@ -1,0 +1,47 @@
+.tableData {
+  text-align: left;
+  width: 70vw;
+  max-width: 80vw;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #efefef;
+  background-color: #fdfdfd;
+}
+
+.tableName {
+  font-size: 1.2em;
+  color: rgb(27, 90, 134);
+  border-bottom: 1px solid #c9c9c9;
+  text-align: left;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 100%;
+  margin: 10px 0px;
+  font-size: 0.9em;
+}
+
+table th,
+table td {
+  padding: 15px 20px;
+}
+
+thead tr {
+  border-bottom: 1px solid rgb(27, 90, 134);
+}
+
+tbody tr {
+  border-bottom: 1px solid #b9b9b9;
+}
+
+tbody tr:last-child {
+  border-bottom: 1px solid rgb(27, 90, 134);
+}
+
+.acBtn {
+  display: flex;
+}

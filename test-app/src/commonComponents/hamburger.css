@@ -1,0 +1,36 @@
+#burger-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border: none;
+}
+
+#burger-menu #burger-btn {
+  height: 3px;
+  width: 36px;
+  background-color: pink;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#burger-btn::before,
+#burger-btn::after {
+  content: "";
+  height: 3px;
+  width: 30px;
+  position: absolute;
+  background-color: purple;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+#burger-btn::before {
+  transform: translate(-18px, -10px);
+}
+
+#burger-btn::after {
+  transform: translate(-18px, 10px);
+}

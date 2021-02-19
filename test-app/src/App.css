@@ -1,0 +1,44 @@
+.App {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  display: flex;
+}
+
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.leftNav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 20vw;
+}
+
+.rightBody {
+  background-color: rgb(220, 226, 230);
+  width: 100%;
+  min-height: min-content;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(240, 246, 250);
+}
+
+.content > * {
+  margin: 10vh 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
